@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiNex Solutions | Strategy-Led Digital Marketing Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        diginex: {
+                            orange: '#FF5722',
+                            amber: '#FF8C00',
+                            dark: '#111111',
+                            card: '#1A1A1A',
+                            border: '#333333'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #111111;
+            color: #FFFFFF;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #FF5722 0%, #FF8C00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #FF5722 0%, #FF8C00 100%);
+        }
+        .glass-card {
+            background: rgba(26, 26, 26, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111111;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333333;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FF5722;
+        }
+    </style>
+</head>
+<body class="bg-diginex-dark text-white antialiased selection:bg-diginex-orange selection:text-white">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-diginex-border/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <img src="assets/icons/DIGINEXLOGO.png" alt="Diginex Solutions logo" class="w-12 h-12 rounded-xl object-contain" />
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight">DigiNex<span class="text-diginex-orange">Solutions</span></span>
+                    <span class="block text-[10px] text-gray-400 tracking-widest uppercase font-semibold">Strategy-Led Marketing</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-300">
+                <a href="#services" class="hover:text-diginex-orange transition">Services</a>
+                <a href="#who-we-work-with" class="hover:text-diginex-orange transition">Who We Work With</a>
+                <a href="#workflow" class="hover:text-diginex-orange transition">Workflow</a>
+                <a href="#clients" class="hover:text-diginex-orange transition">Clients & Results</a>
+                <a href="#reels" class="hover:text-diginex-orange transition">Motion Works</a>
+                <a href="#contact" class="hover:text-diginex-orange transition">Consultation</a>
+            </div>
+            <div>
+                <a href="tel:9888959659" class="hidden sm:inline-flex items-center space-x-2 px-5 py-2.5 rounded-full gradient-bg text-white font-semibold text-sm shadow-lg shadow-diginex-orange/25 hover:opacity-95 transition transform hover:scale-105">
+                    <i data-lucide="phone-call" class="w-4 h-4"></i>
+                    <span>Call Now</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#FF5722_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full glass-card border border-diginex-orange/30 text-xs font-semibold text-diginex-orange mb-6 shadow-md">
+                <div class="w-6 h-6 rounded-lg gradient-bg flex items-center justify-center font-bold text-xs text-white">D</div>
+                <span>DigiNex Solutions Portfolio</span>
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-5xl mx-auto leading-tight mb-8">
+                Transforming Brands Through <span class="gradient-text">Strategy-Led Marketing</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 font-normal">
+                DigiNex Solutions helps businesses build an unstoppable online presence via high-retention video editing, targeted campaigns, and robust content strategies.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl gradient-bg text-white font-bold text-base shadow-xl shadow-diginex-orange/30 hover:opacity-95 transition flex items-center justify-center space-x-2">
+                    <span>Book Free Consultation</span>
+                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+                <a href="#reels" class="w-full sm:w-auto px-8 py-4 rounded-xl glass-card text-white font-semibold text-base hover:bg-white/10 transition border border-white/10 flex items-center justify-center space-x-2">
+                    <i data-lucide="play-circle" class="w-5 h-5 text-diginex-orange"></i>
+                    <span>Watch Motion Works</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11 CORE SERVICES SECTION -->
+    <section id="services" class="py-20 bg-diginex-card/40 border-y border-diginex-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Our Core Offerings</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">What We Do for Your Brand</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="share-2" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Social Media Management</h3>
+                    <p class="text-sm text-gray-400">Complete handling, content calendars, and community growth.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="file-text" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Content Strategy & Scripts</h3>
+                    <p class="text-sm text-gray-400">Engaging hooks, scripts, and robust content planning.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="video" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Professional Shoots & Editing</h3>
+                    <p class="text-sm text-gray-400">High-retention reels, dynamic video edits, and production.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="palette" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Posters & Creative Designs</h3>
+                    <p class="text-sm text-gray-400">Custom promotional posters and festival creatives.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="award" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Branding</h3>
+                    <p class="text-sm text-gray-400">Distinct brand identity and visual guidelines.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="globe" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Website Design & Maintenance</h3>
+                    <p class="text-sm text-gray-400">High-performing, responsive websites built to convert.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="search" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">SEO & Google Business Profile</h3>
+                    <p class="text-sm text-gray-400">Local search dominance and organic search ranking.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="target" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Meta & Google Ads</h3>
+                    <p class="text-sm text-gray-400">Targeted ad campaigns engineered for direct sales & leads.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="users" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Influencer Marketing</h3>
+                    <p class="text-sm text-gray-400">Collaborations to expand brand trust and reach.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="cpu" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">App & Software Developments</h3>
+                    <p class="text-sm text-gray-400">Custom digital applications tailored for your business.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl border border-white/5 hover:border-diginex-orange/50 transition group sm:col-span-2 lg:col-span-1">
+                    <div class="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center text-white mb-4 group-hover:scale-110 transition"><i data-lucide="user-check" class="w-6 h-6"></i></div>
+                    <h3 class="text-lg font-bold mb-2">Personal Branding</h3>
+                    <p class="text-sm text-gray-400">Positioning founders and leaders as industry authorities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO WE WORK WITH -->
+    <section id="who-we-work-with" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Industries & Partners</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">Who We Work With</p>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Consultancies</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Clothing Brands & Boutiques</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Restaurants & Cafés</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Doctors & Healthcare Professionals</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Influencers & Creators</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Schools & Educational Institutions</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Home Food & Organic Brands</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Small Businesses & Retail Shops</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Jewellery Brands</div>
+                <div class="glass-card p-4 rounded-xl text-center border border-white/5 font-semibold text-sm">Real Estate Businesses</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKFLOW SECTION -->
+    <section id="workflow" class="py-20 bg-diginex-card/40 border-y border-diginex-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Structured Execution</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our 15-Step Client Workflow</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <div class="glass-card p-5 rounded-xl border border-white/5">
+                    <span class="text-diginex-orange font-bold text-sm">Phase 01</span>
+                    <h4 class="font-bold text-base mt-1 mb-2">Onboarding & Setup</h4>
+                    <p class="text-xs text-gray-400">Client onboarding via WhatsApp group, requirement gathering, and secure credentials.</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl border border-white/5">
+                    <span class="text-diginex-orange font-bold text-sm">Phase 02</span>
+                    <h4 class="font-bold text-base mt-1 mb-2">Discovery & Strategy</h4>
+                    <p class="text-xs text-gray-400">Deep dive into goals, target audience analysis, content pillars, and planning.</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl border border-white/5">
+                    <span class="text-diginex-orange font-bold text-sm">Phase 03</span>
+                    <h4 class="font-bold text-base mt-1 mb-2">Scripting & Approval</h4>
+                    <p class="text-xs text-gray-400">Drafting precise scripts, captions, concept reviews, and final sign-off.</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl border border-white/5">
+                    <span class="text-diginex-orange font-bold text-sm">Phase 04</span>
+                    <h4 class="font-bold text-base mt-1 mb-2">Production & Edits</h4>
+                    <p class="text-xs text-gray-400">Professional shoot execution, motion editing, poster design, and 15-day scheduling.</p>
+                </div>
+                <div class="glass-card p-5 rounded-xl border border-white/5">
+                    <span class="text-diginex-orange font-bold text-sm">Phase 05</span>
+                    <h4 class="font-bold text-base mt-1 mb-2">Publishing & Growth</h4>
+                    <p class="text-xs text-gray-400">Consistent publishing, performance tracking, reporting, and continuous optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS & PROVEN RESULTS -->
+    <section id="clients" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Proven Track Record</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our Clients & Results</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Deer Valley Estate -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/DEERVALLEY_ICON.png" alt="DV logo" class="w-10 h-10 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">Deer Valley Estate</h3>
+                            </div>
+                            <a href="https://www.instagram.com/deervalley.estate/" target="_blank" class="text-xs text-diginex-orange flex items-center space-x-1 underline"><span>Instagram</span><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Content scripts, shoot, video edits, and promotional campaigns.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Scaled from 0 to 1,407+ Followers (22 posts)</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>607.3K Views in 30 days (Top reels: 108K, 39.3K views)</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Generated pre-booking slots (2 slots filled instantly)</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Hanvika Designer Studio -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/Hanvika_ICON.png" alt="HD logo" class="w-10 h-10 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">Hanvika Designer Studio</h3>
+                            </div>
+                            <a href="https://www.instagram.com/hanvika_designers/" target="_blank" class="text-xs text-diginex-orange flex items-center space-x-1 underline"><span>Instagram</span><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Social media handling, scripts, shoot & edit.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Scaled to 4,442 Followers</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>1.1 Million+ Views in last 30 days</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Surge in online & international orders</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Ekatva International School -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/EKATVA_ICON.png" alt="EI logo" class="w-14 h-14 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">Ekatva School</h3>
+                            </div>
+                            <a href="https://www.instagram.com/ekatva_international_school/" target="_blank" class="text-xs text-diginex-orange flex items-center space-x-1 underline"><span>Instagram</span><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Content planning, social media handling, and campus shoots.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Reached 2,000+ Followers (+23.5% growth)</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>204.6K+ Impressions / Reach achieved</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- UG Foods / Products -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/UGFOODS_ICON.png" alt="UG logo" class="w-14 h-14 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">UG Foods / Products</h3>
+                            </div>
+                            <a href="https://www.instagram.com/ug_products/" target="_blank" class="text-xs text-diginex-orange flex items-center space-x-1 underline"><span>Instagram</span><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Social media handling, scripts, shoot, edits & posters.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Built from scratch to 117 followers (18 posts)</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>29.5K Views in last 30 days</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pravaas International -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/PRAVAAS_ICON.png" alt="PI logo" class="w-14 h-14 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">Pravaas International</h3>
+                            </div>
+                            <a href="https://www.instagram.com/pravaasinternational/" target="_blank" class="text-xs text-diginex-orange flex items-center space-x-1 underline"><span>Instagram</span><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Website development, poster designs, and content scripts.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Custom website design & maintenance</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Targeted overseas education branding</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Edploy Academy -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img src="assets/icons/EDPLOY_ICON.png" alt="EA logo" class="w-10 h-10 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">Edploy Academy™</h3>
+                            </div>
+                            <span class="text-xs text-gray-400">Coaching</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">Content planning, professional shoots, and reels production.</p>
+                        <ul class="space-y-2 text-xs text-gray-300 mb-6">
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>Educational branding & student placements</span></li>
+                            <li class="flex items-center space-x-2"><i data-lucide="check-circle" class="w-4 h-4 text-diginex-orange"></i><span>High-engagement video content</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Special Event Partner -->
+                <div class="glass-card p-6 rounded-2xl border border-white/5 flex flex-col justify-between md:col-span-2 lg:col-span-3">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-4">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-1">
+                                <img src="assets/icons/WAWY_ICON.png" alt="WAY logo" class="w-14 h-14 rounded-xl object-contain bg-white" loading="lazy" />
+                                <h3 class="text-lg font-bold">We Are With You (WAY) — Sankalp 8</h3>
+                            </div>
+                            <p class="text-xs text-gray-400">Official Event Digital Partner & Sponsor for 8th Anniversary.</p>
+                        </div>
+                        <a href="https://www.instagram.com" target="_blank" class="px-4 py-2 rounded-xl gradient-bg text-white font-semibold text-xs flex items-center space-x-2 shadow-md">
+                            <span>Visit Trust Page</span>
+                            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                    <p class="text-xs text-gray-300">Managed digital media coverage and promotional content for their flagship anniversary event.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIVERSIFIED MOTION REELS SHOWCASE -->
+    <section id="reels" class="py-20 bg-diginex-card/40 border-t border-diginex-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Creative Output</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">Curated Video Editing Showcase</p>
+                <p class="text-sm text-gray-400 mt-2">Explore motion reels across our diverse client portfolio.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DcfXRjMkfoV/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DcnFRaOAhZB/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/Dc-cr2CDoGJ/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DdOsWMJCmFA/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DdHid2BkWf3/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DeBbhb_kR5Z/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DeLgTtXDJmz/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DZcfHGqjg32/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DZkGzs3kQ_r/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DZ2L-C4kVwY/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DZ6tUXXAus1/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DZ_8VEBFZrF/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DafjZFmExLS/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/Daj3YFeFXP0/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DauwvLREQJu/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+                <div class="glass-card rounded-xl overflow-hidden border border-white/5 aspect-[9/16] relative shadow-lg"><iframe src="https://www.instagram.com/reel/DaxT0_KDh6x/embed/" class="w-full h-full absolute inset-0 border-0" scrolling="no" allowtransparency="true"></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONSULTATION & GOOGLE FORM INTEGRATION SECTION -->
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-diginex-orange mb-3">Get Started With Us</h2>
+                <p class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4">Let's Scale Your Brand Online</p>
+                <p class="text-gray-400 text-sm">
+                    Fill out the form below to book your consultation or request a social media audit. Submissions connect directly to our Google Forms / Sheets system.
+                </p>
+            </div>
+
+            <!-- Consultation & Lead Form -->
+            <div class="glass-card p-8 sm:p-10 rounded-3xl border border-white/10 shadow-2xl">
+                <form id="diginex-enquiry-form" class="space-y-6">
+                    <p id="form-status" role="status" aria-live="polite" class="hidden text-sm rounded-xl px-4 py-3"></p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-300 mb-2">Your Name</label>
+                            <input type="text" name="Name" required placeholder="Enter your full name" class="w-full px-4 py-3 rounded-xl bg-diginex-dark border border-diginex-border text-white text-sm focus:outline-none focus:border-diginex-orange transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-300 mb-2">Phone Number</label>
+                            <input type="tel" name="Phone" required placeholder="Enter your phone number" class="w-full px-4 py-3 rounded-xl bg-diginex-dark border border-diginex-border text-white text-sm focus:outline-none focus:border-diginex-orange transition">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-300 mb-2">Business / Brand Name</label>
+                            <input type="text" name="Business_Name" required placeholder="Enter your business name" class="w-full px-4 py-3 rounded-xl bg-diginex-dark border border-diginex-border text-white text-sm focus:outline-none focus:border-diginex-orange transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-300 mb-2">Service Type</label>
+                            <select name="Service_Type" class="w-full px-4 py-3 rounded-xl bg-diginex-dark border border-diginex-border text-white text-sm focus:outline-none focus:border-diginex-orange transition">
+                                <option>Book Free Consultation</option>
+                                <option>Social Media Audit & Report</option>
+                                <option>Social Media Management</option>
+                                <option>Content Strategy & Scripts</option>
+                                <option>Professional Shoots & Editing</option>
+                                <option>Posters & Creative Designs</option>
+                                <option>Branding</option>
+                                <option>Website Design & Maintenance</option>
+                                <option>SEO & Google Business Profile</option>
+                                <option>Meta & Google Ads</option>
+                                <option>Influencer Marketing</option>
+                                <option>App & Software Developments</option>
+                                <option>Personal Branding</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-gray-300 mb-2">Project Details / Requirements</label>
+                        <textarea name="Message" rows="4" placeholder="Tell us about your brand goals..." class="w-full px-4 py-3 rounded-xl bg-diginex-dark border border-diginex-border text-white text-sm focus:outline-none focus:border-diginex-orange transition"></textarea>
+                    </div>
+                    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+                        <a href="https://forms.gle/zXHd3bgNyweFhaCK7" target="_blank" class="text-xs text-diginex-orange hover:underline flex items-center space-x-1">
+                            <span>Open Official Google Form Directly</span>
+                            <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button type="submit" class="w-full sm:w-auto px-8 py-4 rounded-xl gradient-bg text-white font-bold text-base shadow-xl shadow-diginex-orange/30 hover:opacity-95 transition flex items-center justify-center space-x-2">
+                            <span>Submit Request</span>
+                            <i data-lucide="send" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="mt-12 text-center text-sm text-gray-400 space-y-1">
+                <p>Email: diginexsolutionsofficial11@gmail.com</p>
+                <p>Website: diginexsolutions.in | Instagram: @diginexsolutionsofficial</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Website enquiries are sent to the Google Apps Script web app,
+        // which appends them to the "Website Enquiries" tab in the shared spreadsheet.
+        const DIGINEX_SHEETS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzeQwtlCBNq-5WOSxW2d5Y2IhNptF22vj1yLwhyvyjhcxiE5Oblb_EM3Zk45oXCZHtqWQ/exec";
+        const diginexForm = document.getElementById("diginex-enquiry-form");
+        const diginexStatus = document.getElementById("form-status");
+
+        diginexForm.addEventListener("submit", async function (event) {
+            event.preventDefault();
+            const submitButton = diginexForm.querySelector('button[type="submit"]');
+            const originalButtonHTML = submitButton.innerHTML;
+            submitButton.disabled = true;
+            submitButton.innerHTML = "<span>Submitting...</span>";
+            diginexStatus.className = "text-sm rounded-xl px-4 py-3 bg-white/10 text-gray-200";
+            diginexStatus.textContent = "Submitting your enquiry...";
+
+            const formData = new FormData(diginexForm);
+            const payload = {
+                Name: formData.get("Name"),
+                Phone: formData.get("Phone"),
+                Business_Name: formData.get("Business_Name"),
+                Service_Type: formData.get("Service_Type"),
+                Message: formData.get("Message")
+            };
+
+            try {
+                // text/plain avoids a CORS preflight. Apps Script receives the JSON body.
+                await fetch(DIGINEX_SHEETS_ENDPOINT, {
+                    method: "POST",
+                    mode: "no-cors",
+                    headers: { "Content-Type": "text/plain;charset=utf-8" },
+                    body: JSON.stringify(payload)
+                });
+                // no-cors responses are opaque, so the browser cannot verify the sheet write.
+                diginexStatus.className = "text-sm rounded-xl px-4 py-3 bg-green-500/10 text-green-300";
+                diginexStatus.textContent = "Your request has been sent. Thank you! If you do not hear from us, please contact diginexsolutionsofficial11@gmail.com.";
+                diginexForm.reset();
+            } catch (error) {
+                diginexStatus.className = "text-sm rounded-xl px-4 py-3 bg-red-500/10 text-red-300";
+                diginexStatus.textContent = "We couldn't send your request. Please try again or contact diginexsolutionsofficial11@gmail.com.";
+            } finally {
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalButtonHTML;
+            }
+        });
+    </script>
+
+    <!-- FOOTER -->
+    <footer class="py-8 border-t border-diginex-border/30 text-center text-xs text-gray-500">
+        <p>&copy; 2026 DigiNex Solutions. All rights reserved. Strategy-Led Digital Marketing Agency.</p>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
